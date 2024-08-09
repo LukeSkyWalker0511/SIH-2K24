@@ -1,26 +1,17 @@
 body {
     background-image: url('sanjeev-bhambri-GF0Q0fgszqM-unsplash.jpg');
-    background-size: cover; /* Adjusts the image size to cover the entire area */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 .container {
     padding: 20px;
-    color: white; /* Adjust text color for readability */
+    color: white; 
 }
 *
 {
     margin: 0;
     padding: 0;
-}
-
-.main{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
 }
 
 .menu {
@@ -41,7 +32,7 @@ body {
   }
   
   .menu a {
-    color: #fff;
+    color: #171615;
     text-decoration: none;
     transition: color 0.2s ease;
   }
