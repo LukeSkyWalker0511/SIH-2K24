@@ -1,8 +1,9 @@
 body {
-    background-image: url('blog-1.png');
+    background-image: url('sanjeev-bhambri-GF0Q0fgszqM-unsplash.jpg');
     background-size: cover; /* Adjusts the image size to cover the entire area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
+
 }
 .container {
     padding: 20px;
