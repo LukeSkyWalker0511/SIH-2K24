@@ -33,42 +33,6 @@ body {
     float: left;
     height: 70px;
 }
-/* Style the search box container */
-.search-box {
-    position: fixed;
-    width: 200px;
-    right: 10px;
-    height: 50px;
-    
-    margin: 0px auto;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style the input field */
-  #search-input {
-    width: 90%;
-    height: 30px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-  }
-  
-  /* Style the search button */
-  #search-btn {
-    height: 30px;
-    padding: 10px 20px;
-    font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: hwb(0 100% 0%);
-    color: #ff7200;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
- 
 
 .logo{
     color: #00c8ff;
