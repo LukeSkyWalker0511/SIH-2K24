@@ -48,7 +48,7 @@ body {
   
   /* Style the input field */
   #search-input {
-    width: 100%;
+    width: 90%;
     height: 30px;
     padding: 10px;
     font-size: 16px;
@@ -59,7 +59,8 @@ body {
   #search-btn {
     height: 30px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
     background-color: hwb(0 100% 0%);
     color: #ff7200;
     border: none;
