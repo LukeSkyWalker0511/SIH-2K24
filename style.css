@@ -13,6 +13,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.dm-sans-preconnect {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+}
+
 .vidslider {
     width: 100vw;
     height: 50vh; /* Set to half the viewport height */
