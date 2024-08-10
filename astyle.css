@@ -241,3 +241,12 @@ ul li a{
 ul li a:hover{
     color: #ff7200;
 }
+.text{
+    text-align: center;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text_box{
+    border: 3px solid black;
+    background-color: burlywood;
+}
