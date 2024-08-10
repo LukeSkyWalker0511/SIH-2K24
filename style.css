@@ -15,11 +15,11 @@ body {
 
 .card-container{
     display:grid;
-    gap: 1.5rem;
+    gap: 5rem;
     margin-top: 485px;
     grid-template-columns: repeat(3, 2fr);
     border: 2px solid black;
-    width: 20rem;
+    width: 15rem;
     
     
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .card-content{
-    padding: 16px;
+    padding: 1px;
 }
 
 .card-content h3{
