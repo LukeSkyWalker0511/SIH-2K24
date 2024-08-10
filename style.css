@@ -7,122 +7,10 @@
 }
 
 body {
-    background-image: url(backgrounds/sanjeev-bhambri-GF0Q0fgszqM-unsplash.jpg);
+    background-image: url();
     background-size: 300%;
     background-position: center; 
     background-repeat: no-repeat;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-}
-
-.menu ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.menu li {
-    margin-right: 20px;
-}
-
-.menu a {
-    color: #5c08ec;
-    text-decoration: none;
-    transition: color 0.2s ease;
-}
-
-.menu a:hover {
-    color: #ffffff;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #639cd9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(225, 10, 10, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #f4eeee;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {
-    background-color: #000000
-} 
-
-.dropdown:hover .dropdown-content {
-    display: block;
-} 
-  
-.navbar{
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-}
-
-.logo{
-    color: #00c8ff;
-    font-size: 35px;
-    font-family: Arial;
-    padding-left: 20px;
-    float: left;
-    padding-top: 10px;
-    margin-top: 5px
-}
-
-.menu{
-    width: 400px;
-    float: left;
-    height: 70px;
-}
-
-ul{
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 62px;
-    margin-top: 27px;
-    font-size: 14px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-}
-
-ul li a:hover{
-    color: #ff7200;
 }
 
 .vidslider {
@@ -134,6 +22,7 @@ ul li a:hover{
     left: 50%;
     overflow: hidden;
     margin-top: 1rem;
+    
 }
 
 .wrapper {
@@ -164,11 +53,8 @@ ul li a:hover{
     }
 }
 
-
-
 a{
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .Heading{
@@ -206,13 +92,12 @@ a{
     width: 20rem;
     margin-bottom: 8rem;
     background-color: white;
-
 }
 .card_image_container{
     position: relative;
     overflow: hidden;
     height: 18rem;
-    width: 20rem;
+    width: 19.8rem;
     border-radius: 20px;
 }
 .card_image{
@@ -255,3 +140,52 @@ a{
     width: 94.9rem;
     height: 30rem;
 }
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 30%;
+    z-index: 1;
+}
+.icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu li {
+    margin-right: 20px;
+}
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #ccc;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #333;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+} 
