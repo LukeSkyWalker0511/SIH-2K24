@@ -3,10 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    height: 100%;
-    width: 100%;
 
+.front_cover_container{
+    border: 2px solid red;
+    margin-top:  5rem;
+    width: 94.7rem;
+    height: 30rem;
+
+
+}
+.front_cover_image{
+    width: 94.7rem;
+    position: relative;
+    background-size: contain;
+    width: 94.7rem;
+    height: 29.8rem;
 }
 
 a{
@@ -85,4 +96,17 @@ a{
 }
 .card_title_achor:hover .card_title{
     color: rgb(47, 16, 221);
+}
+.front_page_container{
+    width: 94.9rem;
+    border: 1px solid black;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front_image{
+    width: 94.9rem;
+    height: 30rem;
 }
