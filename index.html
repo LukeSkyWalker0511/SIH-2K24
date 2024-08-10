@@ -62,5 +62,21 @@
             </div>
         </div>
 
+    <div class="vidslider">
+      <div class="wrapper">
+          <video src="videos/vid1.webm" width="1000px" height="100%" autoplay loop muted></video>
+          <video src="videos/vid2.mp4" width="300px" height="100%" autoplay loop muted></video>
+          <video src="videos/vid3.mp4" width="500px" height="100%" autoplay loop muted></video>
+      </div>
+        
+    </div>
+    <script>
+      document.querySelectorAll('.wrapper video').forEach(video => {
+        video.play();
+        });
+        
+    </script>
+          
+        
 </body>
 </html>
