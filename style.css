@@ -162,3 +162,39 @@ ul li a:hover{
     color: #ff7200;
 }
 
+.vidslider {
+    width: 100vw;
+    height: 50vh; /* Set to half the viewport height */
+    position: fixed;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%; /* Adjusted for 3 videos */
+    display: flex;
+    animation: slide 15s ease-in-out infinite; /* Adjusted duration to fit 3 slides */
+}
+
+.wrapper video {
+    width: 100vw; /* Full width of the viewport */
+    height: 100%; /* Full height of the .vidslider */
+    object-fit: contain; /* Ensures the video covers the container without stretching */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); /* Center the video vertically */
+}
+
+@keyframes slide {
+    0%, 33.33% {
+        transform: translateX(0);
+    }
+    38.33%, 66.66% {
+        transform: translateX(-100%);
+    }
+    71.66%, 100% {
+        transform: translateX(-200%);
+    }
+}
