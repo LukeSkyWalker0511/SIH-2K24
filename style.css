@@ -21,31 +21,27 @@ body {
 }
 
 .vidslider {
-    width: 100vw;
-    height: 50vh; /* Set to half the viewport height */
+    width: 85vmin;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 35%;
+    top: 40%;
     left: 50%;
     overflow: hidden;
-    margin-top: 1rem;
-    
 }
 
 .wrapper {
-    width: 100%; /* Adjusted for 3 videos */
+    width: 100%;
     display: flex;
-    animation: slide 15s ease-in-out infinite;
-    position: relative; /* Adjusted duration to fit 3 slides */
+    animation: slide 9s ease-in-out infinite;
 }
 
 .wrapper video {
-    width: 100vw; /* Full width of the viewport */
-    height: 100%; /* Full height of the .vidslider */
-    object-fit: contain; /* Ensures the video covers the container without stretching */
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); /* Center the video vertically */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    box-sizing: border-box;
 }
 
 @keyframes slide {
@@ -59,6 +55,7 @@ body {
         transform: translateX(-200%);
     }
 }
+
 
 a{
     text-decoration: none;    
@@ -88,9 +85,10 @@ a{
     display: grid;
     gap: 2.5rem;
     grid-template-columns: repeat(4, 2fr);
-    margin-top: 480px;
+    margin-top: 550px;
     width: 18rem;
     margin-left: 2rem;
+   
 }
 .card_container{
     display: flex;
@@ -150,6 +148,7 @@ a{
 
 .navbar {
     background-color: #333;
+    
     color: #fff;
     padding: 1em;
     display: flex;
