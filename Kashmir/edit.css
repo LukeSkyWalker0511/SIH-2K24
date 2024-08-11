@@ -1,0 +1,239 @@
+.video {
+    position: absolute;
+    display: block;
+    /* margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px; */
+    margin: 10% auto;
+    height: 20px;
+    width: 20px;
+}
+
+.Head {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(40, 18, 141);
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Para {
+    font-size: 20px;
+    color: rgb(43, 109, 48);
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.hotels {
+    font-size: 100px;
+    text-align: center;
+}
+
+.one {
+    background-image: url();
+
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.Toursit {
+    text-align: center;
+    font-size: 25px;
+}
+
+.Spots {
+    text-align: left;
+    font-size: 100px;
+}
+
+.dd {
+    font-size: 40px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.Tour {
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Visit {
+    float: left;
+    width: 45%;
+    padding: 5px;
+    font-size: 25px;
+    color: rgb(115, 29, 172);
+    font-size: 20px;
+    margin-top: 2px;
+
+
+}
+.photo::after {
+    content: "";
+    display: table;
+    clear: both;
+    
+    
+}
+
+
+
+.photo{
+    margin-left: 116px;
+}
+   
+
+    .Travel{
+        font-size: 40px;
+        margin-left: 30px;
+        display: block;
+        padding: 22px;
+        block-size: 20px;
+        border-radius: 2px;
+        border-color: black;
+        color: brown;
+        
+        
+
+        
+    }
+    
+
+
+    .Air {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+
+    }
+    
+    
+
+    .A {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .Train {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+
+    .T {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .Road {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+
+    .R {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .Vehicle {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+
+    .V {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .Cab {
+        font-size: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    .C {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 20px;
+    }
+
+    .low{
+        font-size: 20px;
+        margin-left: 4px;
+        margin-right: 30px;
+    }
+    .content{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .cost {
+        font-size: 40px;
+        margin-left: 4px;
+        margin-right: 30px;
+        margin-top: 50px;
+        text-align: center;
+        color: rgb(175, 21, 31);
+
+    }
+
+    .plans {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
+        text-align: left;
+        color: rgb(39, 29, 172);
+    }
+
+    .Map{
+        width: 50%;
+        margin-left: 380px;
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
+    .About{
+        background-color: #434a54;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        padding-block: 10px;
+    }
+    .company{
+        text-align: center;
+        font-size: 15px;
+    }
+    .Video{
+        height:420px;
+    }
