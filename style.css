@@ -44,27 +44,42 @@ body {
     font-style: normal;
 }
 
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+   
+}
+
 .vidslider {
-    width: 85vmin;
+    width:138.7rem;
+height: 30rem;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 42%;
-    left: 50%;
+    top: 45%;
+   
+  
     overflow: hidden;
 }
 
 .wrapper {
     width: 100%;
     display: flex;
-    animation: slide 9s ease-in-out infinite;
+    animation: slide 15s ease-in-out infinite;
+    
 }
 
 .wrapper video {
-    width: 100%;
+    width:  100% ;
     height: auto;
+   
     object-fit: cover;
-    border: 5px solid rgb(0, 0, 0);
-    border-radius: 25px;
+   
+   
     box-sizing: border-box;
 }
 
@@ -79,7 +94,6 @@ body {
         transform: translateX(-200%);
     }
 }
-
 a {
     text-decoration: none;
 }
@@ -266,3 +280,46 @@ a {
     font-size: x-large;
 
   }
+  /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    height: 200vh; /* To create some scrollable content */
+    background-color: #f0f0f0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 200vh; /* Extend the height of the page for scrolling */
+}
+
+.wrapper1 {
+    height: 100vh;
+    /* Center the content */
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.rise-up {
+    font-size: 2em;
+    opacity: 0; /* Start with the text invisible */
+    transform: translateY(20px); /* Start with the text slightly lower */
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    font-family: monospace;
+}
+
+.rise-up.active {
+    opacity: 1; /* Fade in the text */
+    transform: translateY(0); /* Move the text to its normal position */
+}
