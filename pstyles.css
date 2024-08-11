@@ -123,13 +123,13 @@
     
 }
 .banner_image{
-    top: 9%;
+    top: 12%;
     width: 100%;
     width: 94.7rem;
     height:35rem;
     image-resolution: 1080;
     padding: 0px;
-    object-fit: cover;
+    object-fit:cover;
     position: absolute;
   }
   
