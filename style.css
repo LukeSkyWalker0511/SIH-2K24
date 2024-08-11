@@ -299,6 +299,8 @@ body, html {
     height: 200vh; /* Extend the height of the page for scrolling */
 }
 
+}
+
 .wrapper1 {
     height: 100vh;
     /* Center the content */
