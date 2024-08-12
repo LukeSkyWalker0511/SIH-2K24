@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singapore</title>
+    <link rel="stylesheet" href="Tedit.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .company {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+
+        .company_logo {
+            width: 50px;
+            height: auto;
+        }
+
+        .company_name {
+            margin-left: 15px;
+        }
+
+        .company_name b {
+            display: block;
+            font-size: 24px;
+        }
+
+        .navbar {
+            background-color: #444;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #444;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #555;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .Header {
+            text-align: center;
+            padding: 20px;
+            background-color: #222;
+            color: white;
+        }
+
+        .Header .Video {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+
+        .Head {
+            font-size: 36px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .Para {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .hotels {
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+
+        .column {
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+
+        .column p {
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        .Tour {
+            text-align: center;
+            padding: 20px;
+            background: #eee;
+        }
+
+        .Tour .dd {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .photo {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 10px;
+        }
+
+        .Visit {
+            flex: 1;
+            margin: 10px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .Visit img {
+            width: 100%;
+            height: auto;
+        }
+
+        .Visit h3 {
+            margin: 10px;
+            font-size: 20px;
+        }
+
+        .Visit p {
+            margin: 10px;
+            font-size: 16px;
+        }
+
+        .Plans {
+            padding: 20px;
+        }
+
+        .Plans h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .Plans h2 {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .Plans h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .Plans ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .Plans ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="company">
+        <img class="company_logo" src="/images/logo.jpeg" alt="Company Logo">
+        <p class="company_name">
+            <b>TECH-TONIC</b>
+            <b>TRAVELS</b>
+        </p>
+    </div>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="explore.html">EXPLORE</a></li>
+            <li><a href="adventures.html">ADVENTURES</a></li>
+            <li><a href="pilgrimage.html">PILGRIMAGES</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">CONTACT</a>
+                <div class="dropdown-content">
+                    <a href="#">Email: chalobhai@gmail.com</a>
+                    <a href="#">Phone: 6969696969</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="Header">
+        <video autoplay loop muted class="Video">
+            <source src="/singapore/singapore vid.mp4" type="video/mp4">
+        </video>
+        <div class="Head">
+            Singapore
+        </div>
+        <div class="Para">
+            <p>
+                Singapore, a dazzling city-state in Southeast Asia, captivates with its modern skyline and rich cultural tapestry. From the futuristic Gardens by the Bay to the vibrant streets of Orchard Road, Singapore blends cutting-edge innovation with deep-rooted traditions. Renowned for its cleanliness and efficiency, it offers a melting pot of culinary delights, lush green spaces, and historical landmarks. Whether you’re exploring the multicultural neighborhoods of Chinatown and Little India or relaxing by the Marina Bay Sands, Singapore provides an unforgettable urban adventure with a touch of serenity.
+            </p>
+        </div>
+        <div class="hotels">
+            Hotels
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <img src="/singapore/best-hostels-singapore.jpg" alt="Backpacker Hostel">
+            The Backpacker Hostel, Singapore -₹2,000 - ₹4,000
+        </div>
+        <div class="column">
+            <img src="/singapore/royal plaza singapore.jpg" alt="Royal Plaza on Scotts">
+            Royal Plaza on Scotts, Singapore -₹5,000 - ₹10,000
+        </div>
+        <div class="column">
+            <img src="/singapore/marina bay sands.jpg" alt="Marina Bay Sands">
+            Marina Bay Sands, Singapore -₹20,000 - ₹50,000
+        </div>
+    </div>
+
+    <div class="Tour">
+        <div class="dd">MUST-visit Destinations:</div>
+    </div>
+
+    <div class="photo">
+        <div class="Visit">
+            <img src="/singapore/singapore flyer.jpg" alt="Singapore Flyer">
+            <h3>Singapore Flyer</h3>
+            <p>The Singapore Flyer offers stunning panoramic views of the city from its 165-meter-tall observation wheel. It's an iconic landmark and a great way to see Singapore's skyline and beyond.</p>
+        </div>
+
+        <div class="Visit">
+            <img src="/singapore/sentosa.jpg" alt="Sentosa Island">
+            <h3>Sentosa Island</h3>
+            <p>Sentosa Island is a popular resort destination featuring pristine beaches, luxury hotels, and attractions like Universal Studios Singapore. It's perfect for relaxation and family fun.</p>
+        </div>
+
+        <div class="Visit">
+            <img src="/singapore/chinatown.jpg" alt="Chinatown">
+            <h3>Chinatown</h3>
+            <p>Singapore's Chinatown is a vibrant area known for its rich heritage, bustling markets, and delicious street food. Explore temples, traditional shops, and enjoy a taste of Singaporean culture.</p>
+        </div>
+
+        <div class="Visit">
+            <img src="/singapore/gardens by the bay.jpg" alt="Gardens by the Bay">
+            <h3>Gardens by the Bay</h3>
+            <p>Gardens by the Bay is a futuristic park with stunning Supertree structures and climate-controlled conservatories. It's a must-visit for its unique blend of nature and technology.</p>
+        </div>
+    </div>
+
+    <div class="tour-packages">
+        <h1 class="section-title">Explore Our Singapore Tour Packages</h1>
+    
+        <div class="package-card low-budget">
+            <h2 class="package-title">Low-Budget Adventure</h2>
+            <p class="package-duration">Duration: 4-5 days</p>
+    
+            <div class="package-details">
+                <div class="package-info">
+                    <h3>Destinations:</h3>
+                    <ul>
+                        <li><strong>Singapore City</strong></li>
+                        <li><strong>Sentosa Island</strong></li>
+                    </ul>
+    
+                    <h3>Accommodation:</h3>
+                    <ul>
+                        <li><strong>Singapore City:</strong> Budget hostels or guesthouses.</li>
+                        <li><strong>Sentosa Island:</strong> Budget hotels or resorts.</li>
+                    </ul>
+    
+                    <h3>Estimated Cost:</h3>
+                    <p>$250 - $400 per person</p>
+    
+                    <h3>Sample Itinerary:</h3>
+                    <ul>
+                        <li><strong>Day 1:</strong> Arrive in Singapore, check into a budget hostel. Explore Orchard Road and enjoy local street food.</li>
+                        <li><strong>Day 2:</strong> Visit Gardens by the Bay and Marina Bay Sands. Explore the Clarke Quay area in the evening.</li>
+                        <li><strong>Day 3:</strong> Take a day trip to Sentosa Island. Visit Universal Studios or relax on the beaches.</li>
+                        <li><strong>Day 4:</strong> Explore Chinatown and Little India. Enjoy shopping and dining in these vibrant neighborhoods.</li>
+                        <li><strong>Day 5:</strong> Visit the Singapore Flyer and relax before your departure.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+        <div class="package-card mid-budget">
+            <h2 class="package-title">Mid-Budget Experience</h2>
+            <p class="package-duration">Duration: 5-6 days</p>
+    
+            <div class="package-details">
+                <div class="package-info">
+                    <h3>Destinations:</h3>
+                    <ul>
+                        <li><strong>Singapore City</strong></li>
+                        <li><strong>Sentosa Island</strong></li>
+                        <li><strong>Singapore Zoo</strong></li>
+                    </ul>
+    
+                    <h3>Accommodation:</h3>
+                    <ul>
+                        <li><strong>Singapore City:</strong> Mid-range hotels or boutique guesthouses.</li>
+                        <li><strong>Sentosa Island:</strong> Mid-range resorts or hotels.</li>
+                    </ul>
+    
+                    <h3>Estimated Cost:</h3>
+                    <p>$600 - $900 per person</p>
+    
+                    <h3>Sample Itinerary:</h3>
+                    <ul>
+                        <li><strong>Day 1:</strong> Arrive in Singapore, check into a mid-range hotel. Explore Orchard Road and enjoy a dinner cruise.</li>
+                        <li><strong>Day 2:</strong> Visit Gardens by the Bay, Marina Bay Sands, and take a boat tour. Explore the nightlife at Clarke Quay.</li>
+                        <li><strong>Day 3:</strong> Spend the day at Sentosa Island, visiting Universal Studios or S.E.A. Aquarium.</li>
+                        <li><strong>Day 4:</strong> Explore the Singapore Zoo and Night Safari.</li>
+                        <li><strong>Day 5:</strong> Visit Chinatown and Little India. Enjoy a local food tour and shopping.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
