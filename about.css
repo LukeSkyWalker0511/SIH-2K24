@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif , serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #ddf2d1;
+    color: #333;
+}
+
+header {
+    background-color: #FDC010;
+    background: url(../Desktop/nature1.jpg) ;
+    background-size: inherit;
+    color: #ddf2d1;
+    padding: 30px ;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ddf2d1;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #8BC34A;
+}
+
+/* About Section */
+.about {
+    margin-bottom: 40px;
+}
+
+/* Team Section */
+.team {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Contact Form */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddf2d1;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #43A047;
+    color: #ddf2d1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #009688;
+}
+
+/* Footer */
+footer {
+    background-color: #FDC010;
+    color: #ddf2d1;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}

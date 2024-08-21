@@ -244,5 +244,158 @@ body{
         font-size: 15px;
     }
     .Video{
+        margin-top:80px;
         height:420px;
     }
+    .navbar {
+        background-color: #333;
+        color: #fff;
+        padding: 2em;
+        display: flex;
+        justify-content: center; /* Center items horizontally */
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+    
+    .icon {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    
+    .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .menu li {
+        margin-right: 20px;
+    }
+    
+    .menu a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        color: #ccc;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        border: 1px solid #333;
+        z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .company_logo{
+        position: fixed;
+        top: 0%;
+        width: 120px;
+        z-index: 2;
+        height: 5.2rem;
+        left: 0%;
+        
+        
+    }
+    
+    .company_name{
+        position: fixed;
+        left: 9%;
+        bottom: 10%;
+        top: 0%;
+        font-size: larger;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        z-index: 2;
+        color: #ffffff;
+        z-index: 2;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+         
+    }
+    .tour-packages {
+        padding: 40px 20px;
+        background-color: #fff;
+    }
+    
+    .section-title {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 40px;
+        color: #333;
+    }
+    
+    .package-card {
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 20px auto;
+        padding: 20px;
+        max-width: 800px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background: #f9f9f9;
+    }
+    
+    .package-card h2 {
+        font-size: 28px;
+        margin-top: 0;
+        color: #333;
+    }
+    
+    .package-duration {
+        font-size: 18px;
+        color: #555;
+    }
+    
+    .package-details {
+        margin-top: 20px;
+    }
+    
+    .package-info {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    .package-info h3 {
+        font-size: 20px;
+        margin-top: 20px;
+        color: #444;
+    }
+    
+    .package-info ul {
+        list-style-type: disc;
+        margin-left: 20px;
+    }
+    
+    .package-info ul li {
+        margin-bottom: 10px;
+    }
+    
+    .package-info p {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    
+    .low-budget {
+        border-left: 5px solid #4caf50;
+    }
+    
+    .mid-budget {
+        border-left: 5px solid #2196f3;
+    }
+    
